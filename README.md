@@ -32,11 +32,11 @@ confusing or unclear, then by all means feel free to contact me.
 ##### SetUp:
 	In order to use this jail system all of its parts must be setup in the fashion described here. Please take the time to go over the SetUp fully, and be sure to follow each step.
 
-	######1: Getting started... / Setting up a "Prisoner group"
-    The First thing that needs to be done is to ensure that the "enableEvents" property in the "simpleserver.properties" file is set to "true". 	If it is not, then none of this code will ever execute.
+######1: Getting started... / Setting up a "Prisoner group"
+	The First thing that needs to be done is to ensure that the "enableEvents" property in the "simpleserver.properties" file is set to "true". 	If it is not, then none of this code will ever execute.
 		
 	Next, is to set up a "group" or rank for prisoners in the config.xml under the groups section.
-An example of how such a group might appear is below with an id of 0:
+	An example of how such a group might appear is below with an id of 0:
 	```xml
 	    <!-- Groups -->
 		<group id="0" name="Prisoner" color="8" showTitle="true"/>
